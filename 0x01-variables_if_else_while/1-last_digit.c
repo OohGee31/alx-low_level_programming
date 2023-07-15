@@ -1,8 +1,14 @@
+#include<stdlib.h>
+#include<time.h>
 #include<stdio.h>
+
+
 /**
  * main - Starting point
  * Return: 0 (success)
  */
+
+
 int main(void)
 {
 	int n;
