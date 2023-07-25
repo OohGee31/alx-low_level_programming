@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * puts_half - print half of a string, then a new line
- * @str: input string
- * Return: 0 (success)
+ * puts_half - printing half of string
+ * @str : array variable
+ * Return: Always 0.
  */
-
 void puts_half(char *str)
-
 {
-	int i, d, add = 0;
+        int a;
 
-	for (i = 0; str[i] != '\0'; i++)
-		add++;
-	d = (add - 1) / 2;
-	for (i = d + 1; str[i] != '\0'; i++)
-		_putchar('\n');
-}
+        for (a = 0; str[a] != '\0'; a++)
+                ;
+        a = a + 1;
+        for (a = a / 2; str[a] != '\0'; a++)
+        {
+                _putchar(str[a]);
+        }
+        _putchar('\n');
+} 
