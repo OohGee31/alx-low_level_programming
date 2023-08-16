@@ -4,7 +4,7 @@
  * int_index - return index place if comparison = true, else -1
  * @array: array
  * @size: size of elements in array
- * @cap: pointer to func of one of the 3 in min
+ * @cmp: pointer to func of one of the 3 in min
  * Return: 0
  */
 

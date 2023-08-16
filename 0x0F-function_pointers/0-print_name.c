@@ -1,8 +1,8 @@
 #include "function_pointers.h"
-#include <stdtio.h>
+#include <stdio.h>
 
 /**
- * _prit_name - Print name using pointer to fuction
+ * print_name - Print name using pointer to fuction
  * @name: String
  * @f: pointer to function
  * Return: 0
