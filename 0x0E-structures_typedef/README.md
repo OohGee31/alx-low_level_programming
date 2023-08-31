@@ -1,1 +1,0 @@
-Type define structure
